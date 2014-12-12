@@ -1,0 +1,119 @@
+body
+{
+	background-color: #FFF5E5;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    margin: 0;
+}
+
+.circle
+{
+	display: inline-block;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+}
+
+.fill
+{
+	-webkit-border-radius: 1000px;
+	-moz-border-radius: 1000px;
+	border-radius: 1000px;
+	display: block;
+}
+
+.circle.color1
+{
+	border: 7px #00a2ff solid;
+}
+
+.fill.color1
+{
+	background-color: #00a2ff;
+}
+
+.circle.color2
+{
+	border: 7px #ff94c1 solid;
+}
+
+.fill.color2
+{
+	background-color: #ff94c1;
+}
+
+.circle.color3
+{
+	border: 7px #a3d800 solid;
+}
+
+.fill.color3
+{
+	background-color: #a3d800;
+}
+
+.circle.color4
+{
+	border: 7px #ff0051 solid;
+}
+
+.fill.color4
+{
+	background-color: #ff0051;
+}
+
+.circle.color5
+{
+	border: 7px #f7b300 solid;
+}
+
+.fill.color5
+{
+	background-color: #f7b300;
+}
+
+.circle.color6
+{
+	border: 7px #00fad3 solid;
+}
+
+.fill.color6
+{
+	background-color: #00fad3;
+}
+
+.points, .gameOver, .play, .best_points
+{
+	color: #8F887E;
+	font-family: "Arial";
+	font-size: 40px;
+	position: absolute;
+	font-weight: bold;
+}
+
+.best_points
+{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.gameOver, .play
+{
+	display: none;
+}
+
+.play
+{
+	color: #00a2ff;
+	cursor: pointer;
+}
+
+.play:hover
+{
+	color: #ff94c1;
+}
